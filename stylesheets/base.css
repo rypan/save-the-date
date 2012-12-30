@@ -75,8 +75,9 @@
 		font-family: "Sorts Mill Goudy", "Georgia", "Times New Roman", serif;
 		font-weight: normal;
 		font-style: italic;
-		opacity: 0.75;
-		text-align: center;}
+		opacity: 1;
+		text-align: center;
+		text-shadow: #FFFFFF 1px 1px 5px;}
 	h1 a, h2 a, h3 a, h4 a, h5 a, h6 a { font-weight: inherit; }
 	h1 { font-size: 46px; line-height: 50px; margin-bottom: 14px;}
 	h2 { font-size: 60px; line-height: 50px; margin-bottom: 10px; }
