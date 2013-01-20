@@ -1,6 +1,6 @@
 ---
 layout: default
-name: Ani and Tara
+name: Ani + Tara
 event: June 22, 2013
 rsvp: http://ryanandsuhasini.wufoo.com/forms/ryan-suhasini-june-22-2013/
 ---
