@@ -50,22 +50,6 @@
 
 /* #Basic Styles
 ================================================== */
-	body {
-		background: #fff;
-		font: 14px/21px "HelveticaNeue", "Helvetica Neue", Helvetica, Arial, sans-serif;
-		color: #444;
-		-webkit-font-smoothing: antialiased; /* Fix for webkit rendering */
-		-webkit-text-size-adjust: 100%;
-		color: #fff;
-		position: relative;
-		background-color: #000;
-		background-color: rgba(51, 69, 152, 0.1);
-		background-repeat: no-repeat;
-		background-position: top center;
-		background-attachment: fixed;
-		background-image: url('../images/us.jpg');
-		background-size: cover;
- }
 
 
 /* #Typography
