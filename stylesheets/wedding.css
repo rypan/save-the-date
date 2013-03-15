@@ -1,16 +1,88 @@
 body {
 		background: #fff;
-		font: 14px/21px "HelveticaNeue", "Helvetica Neue", Helvetica, Arial, sans-serif;
+		font: 14px/21px "Crimson Text", "Georgia", "Times New Roman", serif;
 		color: #444;
 		-webkit-font-smoothing: antialiased; /* Fix for webkit rendering */
 		-webkit-text-size-adjust: 100%;
-		color: #fff;
-		position: relative;
-		background-color: #000;
-		background-color: rgba(51, 69, 152, 0.1);
-		background-repeat: no-repeat;
-		background-position: top center;
-		background-attachment: fixed;
-		background-image: url('../images/us.jpg');
-		background-size: cover;
+		
  }
+
+/* #Typography
+================================================== */
+	h1, h2, h3, h4, h5, h6 {
+		color: #3a4f84;
+		font-family: "Oswald", "HelveticaNeue", "Helvetica Neue", Helvetica, Arial, sans-serif;
+		font-weight: lighter; text-transform: uppercase;
+		}
+	h1 a, h2 a, h3 a, h4 a, h5 a, h6 a { font-weight: inherit; }
+	h1 { font-size: 25px; line-height: 50px; margin-bottom: 14px; }
+	h2 { font-size: 20px; line-height: 40px; margin-bottom: 10px; }
+	h3 { font-size: 28px; line-height: 34px; margin-bottom: 8px; }
+	h4 { font-size: 21px; line-height: 30px; margin-bottom: 4px; }
+	h5 { font-size: 17px; line-height: 24px; }
+	h6 { font-size: 14px; line-height: 21px; }
+	.subheader { color: #777; }
+
+	p { margin: 0 0 20px 0;}
+	p img { margin: 0; }
+	p.lead { font-size: 21px; line-height: 27px; color: #777;  }
+
+	em { font-style: italic; }
+	strong { font-weight: bold; color: #333; }
+	small { font-size: 80%; }
+
+/*	Blockquotes  */
+	blockquote, blockquote p { font-size: 17px; line-height: 24px; color: #777; font-style: italic; }
+	blockquote { margin: 0 0 20px; padding: 9px 20px 0 19px; border-left: 1px solid #ddd; }
+	blockquote cite { display: block; font-size: 12px; color: #555; }
+	blockquote cite:before { content: "\2014 \0020"; }
+	blockquote cite a, blockquote cite a:visited, blockquote cite a:visited { color: #555; }
+
+	hr { border: solid #ddd; border-width: 1px 0 0; clear: both; margin: 10px 0 30px; height: 0; }
+
+
+
+.center{
+	text-align: center;
+}
+
+.hero{
+	margin-bottom: 25px;
+}
+
+div.menu{
+	margin-top: 0px;
+}
+
+.section{
+	margin-top: 15px;
+	margin-bottom: 10px;
+}
+
+
+div.menu span{
+	margin: 20px;
+
+}
+
+.menu{
+	font-family: "Oswald", "HelveticaNeue", "Helvetica Neue", Helvetica, Arial, sans-serif;
+	font-weight: lighter;
+	text-transform: uppercase;
+	font-size: 20px;
+	color: #3a4f84;
+	margin-bottom: 50px;
+}
+
+a{
+	color: #3a4f84;
+	text-decoration: none;
+}
+
+a:hover{
+	color: #6377a8;
+}
+
+a:visited{
+	color: #3a4f84;
+}
