@@ -86,3 +86,9 @@ a:hover{
 a:visited{
 	color: #3a4f84;
 }
+
+.sig{
+	font-family: 'Loved by the King', cursive;
+	font-size: 35px;
+	color: #3a4f84;
+}
