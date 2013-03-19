@@ -92,3 +92,11 @@ a:visited{
 	font-size: 35px;
 	color: #3a4f84;
 }
+
+.who{
+	margin-bottom: 15px
+}
+
+.who-bio{
+	line-height: 1em;
+}
