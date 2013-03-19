@@ -97,6 +97,13 @@ a:visited{
 	margin-bottom: 15px
 }
 
+.who-block{
+	float: left;
+	width: 100px;
+	margin-left: 10px;
+	margin-bottom: 15px;
+}
+
 .who-bio{
 	line-height: 1em;
 }
