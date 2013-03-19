@@ -107,3 +107,7 @@ a:visited{
 .who-bio{
 	line-height: 1em;
 }
+
+.title{
+	text-decoration: underline;
+}
