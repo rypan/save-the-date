@@ -41,6 +41,37 @@
 	<link rel="apple-touch-icon" sizes="72x72" href="images/apple-touch-icon-72x72.png">
 	<link rel="apple-touch-icon" sizes="114x114" href="images/apple-touch-icon-114x114.png">
 
+
+	  <style>
+	    /* Prevents slides from flashing */
+	    #slides {
+	      display:none;
+	    }
+	  </style>
+
+	  <script src="http://code.jquery.com/jquery-latest.min.js"></script>
+	  <script src="/javascript/jquery.slides.min.js"></script>
+
+	  <script>
+	    $(function(){
+	      $("#slides").slidesjs({
+	        width: 618,
+	        height: 400,
+	        navigation: {
+          		effect: "fade"
+        	},
+        	pagination: {
+          		effect: "fade"
+        	},
+        	effect: {
+          		fade: {
+            		speed: 800
+          		}
+          	}
+	      });
+	    });
+	  </script>
+
 </head>
 <body>
 
