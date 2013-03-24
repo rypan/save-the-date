@@ -55,8 +55,16 @@
 	  <script>
 	    $(function(){
 	      $("#slides").slidesjs({
-	        width: 618,
-	        height: 400,
+	        width: 700,
+	        height: 480,
+	        play: {
+	          active: true,
+	          auto: true,
+	          interval: 5000,
+	          swap: true,
+	          pauseOnHover: true,
+	          restartDelay: 2500
+	        },
 	        navigation: {
           		effect: "fade"
         	},
